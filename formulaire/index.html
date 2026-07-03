@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulaire  de contact</title>
+    <style> 
+        label {
+            display:block;
+            width:30%;
+            text-align: center;
+            margin:auto ;
+        }
+        textarea,input{
+            display:block;
+           width:30%;
+           margin:auto;
+        }
+    </style>
 </head>
 <body>
     <form>
-        <label for="nom">Nom</label> <input type="text"  id="nom">
-         <label for="prenom">Prenom</label> <input type="text" id="prenom">
+        <label for="nom">Nom</label> <input type="text"  id="nom" name="nom">
+         <label for="prenom">Prenom</label> <input type="text" id="prenom" name="prenom">
           <label for="email">adresse email</label> <input type="email" id="email" name="email">
-          <label for="objet">Objet</label> <input type="text" id="objet">
-           <label for="message">message</label> <textarea>  </textarea>
+          <label for="objet">Objet</label> <input type="text" id="objet" name="objet">
+           <label for="message">message</label> <textarea id="message"></textarea>
            <label for="num">numero</label> <input type="number" id="num" name="number">
-            <label for="point"></label> <input type="submit" id="point" name="checkbox">
+            <input type="submit" id="point" >
     </form>
 
     
