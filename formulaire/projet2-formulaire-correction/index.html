@@ -59,8 +59,8 @@
         }
         .div3{
             display: inline-block;
-            input, textarea {
-                width: 98%;
+            input,  {
+                width: 99%;
                 height: 40%;
             }
         }
@@ -76,13 +76,15 @@
         }
         .div6{
             display: flex;
-            calign-items:start; 
+            calign-items: start; 
         }
     #envoie{
         background-color: rgb(42, 42, 90);
     }
-        
-
+    textarea{
+        height: 65px;
+        width: 400px;
+    }
     </style>
 </head>
 <body>
@@ -107,12 +109,12 @@
             <input type="text" id="objet" name="objet">
         </div>
         <div class="div3">
-            <label for="message">message</label> 
+            <label for="message">Message</label> 
             <textarea id="message"></textarea>
         </div>
         <div class="div4">
             <div>
-                <label for="num">numero</label> 
+                <label for="num">Numéro</label> 
                 <input type="number" id="num" name="number">
             </div>
             <div class="div6"> <label for="point"> </label> 
