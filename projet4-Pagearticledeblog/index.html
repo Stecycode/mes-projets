@@ -11,19 +11,21 @@
         flex-direction: column;
     }
     main{
-        background-color: bisque;
-        width:80% ;
-        height: 100vh;
+        background-color: white;
+        width:80%;
+        display: flex;
+        flex-wrap: wrap;
     }
     header{
         height: 8vh;
         background-color: brown;
         display: flex;
         justify-content: space-between;
+        padding-left:20px;
+        padding-right: 20px;
     }
     aside{
         background-color: yellow;
-        height: 100vh;
         width: 20%;
 
     }
@@ -39,9 +41,15 @@
     .div1,.div2{
         display: flex;
         align-items: center;
+        display: flex;
+        align-items: center;
     }
-    .div2{
+    .div1,.div2{
         gap: 10px;
+        border:none;
+    }
+    .div2 a{
+        color: black;
     }
     #plans{
         background-color: black;
@@ -49,12 +57,29 @@
         color: white;
         height: 5vh;
         width: 5vw;
+        border:none;
     }
+    #point{
+        background-color: transparent;
+        border:none;
+    }
+    .aut1{
+        color: aqua;
+    }
+    .art{
+        width: 32%;
+        background-color:rgb(234, 232, 232);
+        margin:  5px;
+    }
+    h1{ 
+        width: 100%;
+    }
+
 </style>
 <body>
     <header> 
         <div class="div1"> 
-            <button></button>
+            <button id="point">☰</button>
             <h1>CenterMagazine</h1>
      <nav></nav>
         </div>
@@ -68,21 +93,153 @@
 <section>
   <main>
     <h1>Recent stories</h1>
-    <article>
-        <h2></h2>
+    <article class="art">
+        <h2>
+            Permanent Eyebrows <br>
+            Tattoo Tricks <br>
+            Revealed By Makeup <br>
+            Guru Katie Adams
+        </h2>
+        <p> 
+            <span class="aut1">KARA BANKS</span>-
+            <span class="date1">JANUARY 7,2022</span>
+        </P>
+        <span class="aut1">MAKE UP</span>
+        <img src="" alt="">
+    </article>
+
+    <article class="art">
+        <h2> 
+            <span>EXCLUSIVE</span> 
+            Cool Startups <br>
+            that Will Change Your <br>
+            Perspective on Clothes <br>
+            & Fashion
+        </h2>
+        <p> 
+            <span class="aut1">KARA BANKS</span>-
+            <span class="date1">JANUARY 7,2022</span>
+        </P>
+         <span class="aut1">MAKE UP</span>
+        <img src="" alt="">
+    </article>
+    <article class="art">
+          <h2>
+            <span>EXCLUSIVE</span> 
+            10 Outfits <br>
+            Inspired by Makeup <br>
+            Works of Art are <br>
+            Auctionned in London
+          </h2>
+          <p> 
+            <span class="aut1">KARA BANKS</span>-
+            <span class="date1">JANUARY 7,2022</span>
+        </P>
+            <span class="aut1">MAKE UP</span>
+         <img src="" alt="">
+    </article>
+    <article class="art">
+        <h2> 
+            The Make-up <br>
+            Conference in Dubaï<br>
+            this Winter Unveils<br>
+            Hot Innovations
+        </h2>
+        <p> 
+            <span class="aut1">KARA BANKS</span>-
+            <span class="date1">JANUARY 7,2022</span>
+        </P>
+         <span class="aut1">MAKE UP</span>
         <img src="" alt="">
 
     </article>
-    <article></article>
-    <article></article>
-    <article></article>
-    <article></article>
-    <article></article>
-    <article></article>
-    <article></article>
-    <article></article>
+    <article class="art">
+        <h2> 
+            <span>EXCLUSIVE</span> 
+            Cover Girl <br>
+            Announces Star Shine <br>
+            Makeup Line is Due <br>
+            for Next december
+        </h2>
+        <p> 
+            <span class="aut1">KARA BANKS</span>-
+            <span class="date1">JANUARY 7,2022</span>
+        </P>
+         <span class="aut1">MAKE UP</span>
+        <img src="" alt="">
+
+    </article>
+    <article class="art">
+        <h2> 
+            Engagement <br>
+            Marketing:A New <br>
+            Strategy for the <br>
+            Economy 
+        </h2>
+        <p> 
+            <span class="aut1">KARA BANKS</span>-
+            <span class="date1">JANUARY 7,2022</span>
+        </P>
+         <span class="aut1">MAKE UP</span>
+        <img src="" alt="">
+    </article>
+   <article class="art">
+        <h2> 
+            Television is in Steep<br>
+            Decline Compared to <br>
+            Social Network <br>
+            Marketing
+        </h2>
+        <p> 
+            <span class="aut1">KARA BANKS</span>-
+            <span class="date1">JANUARY 7,2022</span>
+        </P>
+         <span class="aut1">MAKE UP</span>
+        <img src="" alt="">
+     </article>
+     <article class="art">
+        <h2> 
+            Social Network <br>
+            Advertising is <br>
+            Important the Future<br>
+            Of Marketing
+        </h2>
+        <p> 
+            <span class="aut1">KARA BANKS</span>-
+            <span class="date1">JANUARY 7,2022</span>
+        </P>
+         <span class="aut1">MAKE UP</span>
+        <img src="" alt="">
+    </article>
+    <article class="art">
+        <h2> 
+            <span>EXCLUSIVE</span> 
+            Mobile <br>
+            Marketing is the<br>
+            Future of E-<br>
+            Commerce,Real- <br>
+            World Study Finds
+        </h2>
+        <p> 
+            <span class="aut1">KARA BANKS</span>-
+            <span class="date1">JANUARY 7,2022</span>
+        </P>
+         <span class="aut1">MAKE UP</span>
+        <img src="" alt="">
+    </article>
+    
   </main>
   <aside>
+    <h1>Stay in touch:</h1>
+    <div class="div1">
+       <span>F</span> <P>255,324 Fans</P> <button>LIKE</button>
+    </div>
+    <div class="div1">
+         <span>X</span> <P>128,657 FOLLOWERS</P> <button>FOLLOW</button>
+    </div>
+    <div class="div1" > 
+         <span>Y</span> <P>97,058 Subscibers</P> <button>SUBSCRIBE</button>
+    </div>
     <a href=""></a>
   </aside>
 </section>
