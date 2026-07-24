@@ -28,6 +28,10 @@
     aside{
         background-color: yellow;
         width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
 
     }
     footer{
@@ -51,6 +55,7 @@
     }
     .div2 a{
         color: black;
+        text-decoration: none;
     }
     #plans{
         background-color: black;
@@ -79,7 +84,12 @@
         width: 100%;
     }
     ul{
+        display:flex;
+        flex-direction: column;
         list-style: none;
+        font-size: large;
+        padding-left: 0;
+        gap:10px;
     }
     .art img{
         width: 100%;
@@ -101,9 +111,25 @@
     }
     .div4{
         display: flex;
+        align-items: center;
     }
     .C{
         margin-left: auto;
+    }
+    .input{
+        width:100%;
+    }
+    aside h1{
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+    aside a{
+        color: black;
+        text-decoration: none;
+
+    }
+    .date{
+        color: gray;
     }
 </style>
 <body>
@@ -288,15 +314,15 @@
     </div>
     <a href=""></a>
     <h1>Newsletter</h1>
-    <input type="mail" placeholder="Email adress">
-    <button>I WANT IN</button>
+    <input type="mail" placeholder="Email adress" class="input">
+    <button class="input">I WANT IN</button>
     <h1>Don't miss</h1> 
     <ul>
-        <li> The most Popular Celebrity Name List of the Millennium is Finaly Here <span>January 7,2022</span></li>
-        <li><span class="aut1">EXCLUSIVE</span> <a href=""> Technology Will Help Keep Your Home from Becoming Obselete </a><span>January 7,2022 </span></li>
-        <li><span class="aut1">EXCLUSIVE</span> 1 <a href="">10 Outfits inspired by Makeup Works of Art are Auctioned in London </a><span>January 7,2022</span></li>
-        <li><span class="aut1">EXCLUSIVE</span>  <a href="">Cool Startups that Will Change Your Perspective on Clothes &Fashion </a><span>January 7,2022</li>
-        <li> <a href="">Kristen Stewart Was Seen Having Lunch in Toronto with Boyfriend </a><span>January 7,2022</span> </li>
+        <li> The most Popular Celebrity Name List of the Millennium is Finaly Here <span class="date"> <br>January 7,2022</span></li>
+        <li><span class="aut1">EXCLUSIVE</span> <a href=""> Technology Will Help Keep Your Home from Becoming Obselete </a><span class="date"> January 7,2022 </span></li>
+        <li><span class="aut1">EXCLUSIVE</span>  <a href="">10 Outfits inspired by Makeup Works of Art are Auctioned in London </a><span class="date">January 7,2022</span></li>
+        <li><span class="aut1">EXCLUSIVE</span>  <a href="">Cool Startups that Will Change Your Perspective on Clothes &Fashion </a><span class="date">January 7,2022</li>
+        <li> <a href="">Kristen Stewart Was Seen Having Lunch in Toronto with Boyfriend </a><span class="date">January 7,2022</span> </li>
     </ul>
   </aside>
 </section>
