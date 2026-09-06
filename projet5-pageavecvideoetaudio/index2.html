@@ -26,6 +26,13 @@
     #P{
         color: beige;
     }
+    #desc{
+        color: beige;
+        background-color: rgb(38, 38, 38);
+        padding: 10px;
+        border-radius: 8px;
+        display: inline-block;
+    }
     .V{
         display: flex;
         color: gray;
@@ -40,7 +47,7 @@
     .D{
         background-color: rgb(57, 56, 56);
         border: none;
-        border-radius:30px;
+        border-radius:20px;
 
     }
     .I{
@@ -50,7 +57,21 @@
     }
     .S{
         display: flex;
+        align-items: center;
         gap:10px;
+    }
+    #R{
+        color: rgb(68, 68, 67);
+        font-size: 12px;
+
+    }
+    .N{
+        background-color: red;
+        color: bisque;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        margin-left: auto;
     }
 
     
@@ -64,14 +85,18 @@
         <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls id="A"></video>
         <div class="S">
           <img class="I" src="    https://www.w3schools.com/howto/img_avatar.png" alt=""> 
-          <p id="P">Ma chaine</p>
+          <div>
+            <p id="P">Ma chaine</p>
+            <P id="R">1,2K abonnés</P>
+          </div>
+          <button class="N">S'abonner</button>
         </div>
         <div class="B">
           <button class="D">👍</button>
           <button class="D">👎</button>
           <button class="D">↗</button>
         </div>
-        <p id="P">petite vidéo de démonstration</p>
+        <p id="desc">petite vidéo de démonstration</p>
         <div class="V">
           <P>1245 Vues</P>
           <p>6 Septembre 2026</p>
