@@ -4,17 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+    .N{
+        display: flex;
+        justify-content:space-between;
+    }
+    .U{
+        display: flex;
+        gap:10px;
+        margin: 0;
+        padding: 0;
+        list-style:none ;
+    }
+    .I{
+        display: flex;
+        gap: 10px; 
+      }
+      #img{
+        width: 40px;
+      }
+      #F{
+        font-size: 20px;
+      }
+      .button {
+        display: none;
+      }
+      @media (max-width:768px) { .U{
+        display: none}  .button{ display: inline-block}}
+      
+
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <img src="https://flowbite.com/docs/images/logo.svg" alt="logo flowbite">
-            <ul>
-                <li> <a href=""> Acceuil </a></li>
-                <li> <a href=""> Services </a></li>
-                <li> <a href=""> À propos </a></li>
-                <li> <a href=""> Contactb </a></li>
+        <nav class="N">
+             <div class="I"> 
+                    <img src="https://flowbite.com/docs/images/logo.svg" alt="logo Flowbite" id="img"> 
+                    <p id="F">Flowbite</p>
+             </div>
+            <ul class="U">
+                <li> <a href="">Home</a> </li>
+                <li> <a href=""> About</a> </li>
+                <li> <a href=""> services</a> </li>
+                <li> <a href=""> Contact</a> </li>
             </ul>
+            <input type="text" placeholder=" search">
+            <button class="button">☰</button>
 
         </nav>
     </header>
